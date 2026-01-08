@@ -18,18 +18,22 @@ const router = createBrowserRouter([
         path: 'about',
         element: <About />,
       },
-      {
-        path: 'about',
-        element: <About />,
-      },
-      {
-        path: 'about',
-        element: <About />,
-      },
-      {
-        path: 'about',
-        element: <About />,
-      },
+      // {
+      //   path: 'contact',
+      //   element: <Contact />,
+      // },
+      // {
+      //   path: 'careers',
+      //   element: <Careers />,
+      // },
+      // {
+      //   path: 'projects',
+      //   element: <Projects />,
+      // },
+      // {
+      //   path: 'services',
+      //   element: <Services />,
+      // },
     ],
   },
 ])
