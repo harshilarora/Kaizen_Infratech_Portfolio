@@ -1,10 +1,27 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom';
+import { useEffect, useState } from 'react'
+
 
 export default function Header() {
+    // scroll opacity change
+
+    const [scrolled, setScrolled] = useState(false)
+      useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
     return (
-        <header className="shadow sticky z-50 top-0">
-            <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+         <header
+            className={`${scrolled ? 'bg-black/50 dark:backdrop-blur-md' : 'bg-[#262626]'} sticky top-0 z-50 transition-all duration-300 ${scrolled ? 'dark:bg-white/60 backdrop-blur-lg' : 'dark:bg-white'} text-white dark:text-black`
+        }
+    >
+            <nav className=" border-gray-200 px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
 
                     {/* Company Logo */}
