@@ -106,7 +106,7 @@ import Testimonials from "../../components/testimonial.jsx";
           </div>
         </section>
 
-        <section className="w-4/5 mx-auto bg-surface h-screen flex flex-row justify-center border border-gray-300 px-5">
+        <section className="w-4/5 mx-auto bg-surface h-100 flex flex-row justify-center border border-gray-300 px-5">
         <div className="w-2/5">
 
             <p className="font-italics font-secondary text-font-Tertiary border border-gray-300 w-fit px-2 rounded-2xl mt-15">Testimonials</p>
@@ -123,6 +123,8 @@ import Testimonials from "../../components/testimonial.jsx";
         </div>
 
         </section>
+
+        <hr className="border-t-2 w-4/5 border-gray-300 my-4" />
 
         
         </main>
