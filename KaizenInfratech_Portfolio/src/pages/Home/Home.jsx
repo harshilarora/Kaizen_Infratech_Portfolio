@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 import Button from '../../components/Button.jsx';
 import StatsBar from '../../components/statsbar.jsx';
 import NoteBook from '../../components/Maps/mapWhite.jsx';
-import { FaRocket } from "react-icons/fa";
 import Card from "../../components/card1.jsx";
 
  
@@ -72,35 +71,36 @@ import Card from "../../components/card1.jsx";
           </div>
         </section>
 
-        <section className="w-4/5 mx-auto bg-[#fcfcfc] h-screen grid grid-cols-3 grid-rows-2 justify-center items-center border justify-items-center border-gray-300 px-5 ">
+        <section className="w-4/5 mx-auto bg-[#fcfcfc] h-[600px] grid grid-cols-3 grid-rows-2 justify-center items-center border justify-items-center border-gray-300 px-5 ">
           <div className=" ">
-            <h2 className=" text-xl sm:text-4xl py-10 leading-10 font-primary font-md text-font text-left mt-15">What We Deliver.</h2>
-            <p className="text-font font-secondary font-light text-sm border-l-2 border-primary px-2 max-w-4/5">We deliver civil and infrastructure construction solutions engineered for complex systems, including gas stations and depots, utility facilities, industrial factory setups, and residential and commercial infrastructure.</p>
-
+            <h2 className=" text-xl sm:text-4xl py-10 leading-10 font-primary font-md text-font text-left ">What We Deliver.</h2>
+            <p className="text-font font-secondary font-light text-sm border-l-2 border-primary px-2 w-full">We deliver civil and infrastructure construction solutions engineered for complex systems, including gas stations and depots, utility facilities, industrial factory setups, and residential and commercial infrastructure.</p>
+            
           </div>
 
           <div>
             <Card 
             Title="General Construction" 
-            description="services encompassing commercial and residential renovations, structural upgrades, interior fit-outs, and complete project execution." 
-            url="../src/assets/images/cardicon1.png" 
+            description="services encompassing commercial and residential renovations, structural upgrades, interior fit-outs, and complete project executions" 
+            url="../src/assets/images/cardicon1.png"
+            src="/about" 
             />
           </div>
 
           <div>
-            <Card Title="Card Title" description="This is a description for the card component. It provides additional information about the content of the card." />
+            <Card Title="Institutional Construction" description="We deliver institutional construction solutions for educational, healthcare, and public facilities, built to meet safety and regulatory standards." url="../src/assets/images/schoolicon.png" src="/about" />
           </div>
 
           <div>
-            <Card Title="Card Title" description="This is a description for the card component. It provides additional information about the content of the card." />
+            <Card Title="Industrial Construction" description="We specialize in industrial construction, delivering gas station depots, manufacturing facilities, and utilities infrastructure." url="../src/assets/images/factoryicon.png" src="/about"/>
           </div>
 
           <div>
-            <Card Title="Card Title" description="This is a description for the card component. It provides additional information about the content of the card." />
+            <Card Title="Civil Construction" description="Every project is executed with strict quality control, smart planning, and on-time performance, bringing commitment to resilience." url="../src/assets/images/civilicon.png" src="/about"/>
           </div>
 
           <div>
-            <Card Title="Card Title" description="This is a description for the card component. It provides additional information about the content of the card." />
+            <Card Title="Assembly Construction" description="We provide construction solutions for public gathering spaces such as auditoriums, convention centers, terminals, and large-scale facilities" url="../src/assets/images/hallicon.png" src="/about"/>
           </div>
         </section>
 

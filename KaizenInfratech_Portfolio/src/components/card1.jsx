@@ -1,14 +1,21 @@
 import React from "react";
+import { FaArrowRight } from "@react-icons/all-files/fa/FaArrowRight";
+import { Link, NavLink } from 'react-router-dom';
 
-function Card1({ Title, description, url }) {
+
+
+
+function Card1({ Title, description, url, src }) {
   return (
     <div
       className="
         relative
-        w-[320px] h-[240px]
+        w-[380px] h-[240px]
         bg-[#f0f0f0]
         px-8 pt-8 pb-14
         rounded-lg
+        
+
        
       "
     >
@@ -36,17 +43,23 @@ function Card1({ Title, description, url }) {
       </p>
 
       {/* Arrow */}
-      {/* <div
+      <NavLink to = {src}>
+      <div 
         className="
-          absolute bottom-6 right-6
+          absolute top-55 right-6
           w-9 h-9
           border-2 border-yellow-400
           flex items-center justify-center
-          text-lg
-        "
-      >
-        →
-      </div> */}
+          text-lg bg-Btn-Background
+          hover:scale-110 hover:bg-primary transition-transform duration-300
+          cursor-pointer"
+        >
+        
+        <FaArrowRight />
+
+      </div>
+    </NavLink>
+
     </div>
   );
 }

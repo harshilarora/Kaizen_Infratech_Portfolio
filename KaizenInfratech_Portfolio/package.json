@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@observablehq/runtime": "^5.9.9",
+    "@react-icons/all-files": "^4.1.0",
     "a81f306d392fbc57": "https://api.observablehq.com/d/a81f306d392fbc57.tgz?v=3",
     "clsx": "^2.1.1",
     "next-themes": "^0.4.6",
