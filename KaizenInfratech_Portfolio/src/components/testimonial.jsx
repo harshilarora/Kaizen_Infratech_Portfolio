@@ -38,8 +38,6 @@ function testimonial({Title, description, Name, Position}) {
         <p className=" bottom-10 left-20 text-xs text-font-Tertiary">{Position}</p>
         </div>
       </div>
-      
-      
        </div>
  )
 }
