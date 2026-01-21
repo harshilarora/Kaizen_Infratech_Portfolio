@@ -34,6 +34,8 @@ export default function Header() {
                     </Link>
                     <div className="flex items-center lg:order-2">
 
+                        {/* <ThemeToggle/> */}
+
                         {/* Login Button */}
                         <Link
                             to="#"

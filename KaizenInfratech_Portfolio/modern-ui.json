@@ -1,0 +1,12 @@
+{
+  "style": "default",
+  "path": "src/components/modern-ui",
+  "typescript": false,
+  "tailwind": false,
+  "framework": "vite",
+  "components": [],
+  "aliases": {
+    "cn": "@/lib/utils",
+    "hook": "@/hooks"
+  }
+}

@@ -1,1 +1,52 @@
 @import "tailwindcss";
+
+@variant dark (&:is(.dark *));
+
+@theme {
+  --font-primary: "Inter", sans-serif; 
+  --font-secondary: "Poppins", sans-serif; 
+  --font-tertiary: "Roboto", sans-serif; 
+
+
+  --color-surface: light-dark(#ffffff, #262626);
+  --color-font: light-dark(#000000, #ffffff);
+  --color-font-secondary: #EED366;  /*yellow*/
+  --color-font-Tertiary: #8c8c8c;  /*yellow*/
+
+
+  --color-primary: #EED366;  
+  --color-secondary: #262626;  
+  --color-Btn-Background: #D9D9D9;
+
+  
+}
+
+@layer utilities {
+  
+
+  .text-primary {
+    color: var(--color-font-secondary);
+  }
+
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+
+  .text-tertiary {
+    color: var(--color-font-Tertiary);
+  }
+
+
+
+  .font-primary {
+    font-family: var(--font-primary);
+  }
+
+  .font-secondary {
+    font-family: var(--font-secondary);
+  }
+
+  .font-tertiary {
+    font-family: var(--font-tertiary);
+  }
+}
