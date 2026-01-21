@@ -16,7 +16,7 @@ function Notebook() {
   return (
     <>
       <div ref={container1Ref} />
-      <p>Credit: <a href="https://observablehq.com/d/924eb0675b649338@12">Untitled by Simon fraser University</a></p>
+      <p><a href="https://observablehq.com/d/924eb0675b649338@12"></a></p>
     </>
   );
 }

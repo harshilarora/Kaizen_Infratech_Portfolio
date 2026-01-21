@@ -40,7 +40,7 @@ function Stat({ value, label, showDivider }) {
         <AnimatedCounter value={value} />
       </h2>
 
-      <p className="text-md text-font-Tertiary">
+      <p className="text-md text-font-Tertiary font-primary mt-2">
         {label}
       </p>
 
