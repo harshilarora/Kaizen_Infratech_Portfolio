@@ -4,6 +4,8 @@ import Button from '../../components/Button.jsx';
 import StatsBar from '../../components/statsbar.jsx';
 import NoteBook from '../../components/Maps/mapWhite.jsx';
 import Card from "../../components/card1.jsx";
+import Testimonials from "../../components/testimonial.jsx";
+
 
  
 
@@ -11,16 +13,16 @@ import Card from "../../components/card1.jsx";
     return (
         <main >
 
-        <section className="w-4/5 mx-auto bg-surface h-screen flex flex-row justify-center border border-gray-300 px-5">
-          <div>
+        <section className="w-4/5 mx-auto bg-surface h-screen flex flex-row  border border-gray-300 px-5">
+          <div className='w-3/5'>
             <h1 className="text-2xl sm:text-5xl py-10 font-primary font-bold text-font-secondary text-left mt-15">We Build Something <br/> New and Consistent.</h1>
             <p className="text-font font-light text-xl border-l-2 border-primary px-2 font-secondary">Your Ideas & Dreams are Transformed By Us <br/> Into Long Lasting, Engineered Buildings.</p>
             <Button BtnName="Learn More" />
             <Button BtnName="Join The Team" />
 
           </div>
-          <div>
-            <img src="../src/assets/images/homepage-image.png" alt="homepage-image" className="w-auto max-h-4/5 mt-24"/>
+          <div >
+            <img src="../src/assets/images/homepage-image.png" alt="homepage-image" className="w-auto max-h-4/5 mt-24 items-center"/>
           </div>
         </section>
 
@@ -30,7 +32,7 @@ import Card from "../../components/card1.jsx";
 
         <section className="mx-auto bg-surface h-screen flex flex-row justify-center border border-gray-300 px-5 w-4/5">
           
-          <div className="w-2/5">
+          <div className="">
             
             <h2 className=" text-xl sm:text-4xl py-8 leading-10 font-primary font-md text-font text-left mt-15">From Start to Finish, <br/> <span className="text-font-secondary">We Build What You Need.</span></h2>
             <p className="text-font font-secondary font-light text-sm border-l-2 border-primary px-2 max-w-4/5">Established over 25 years ago, Kaaizen Engineers has steadily expanded across states and sectors. Our growth is built on engineering excellence and successful delivery of diverse civil projects. From foundations to skylines, we continue to shape infrastructure with purpose.</p>
@@ -102,6 +104,24 @@ import Card from "../../components/card1.jsx";
           <div>
             <Card Title="Assembly Construction" description="We provide construction solutions for public gathering spaces such as auditoriums, convention centers, terminals, and large-scale facilities" url="../src/assets/images/hallicon.png" src="/about"/>
           </div>
+        </section>
+
+        <section className="w-4/5 mx-auto bg-surface h-screen flex flex-row justify-center border border-gray-300 px-5">
+        <div className="w-2/5">
+
+            <p className="font-italics font-secondary text-font-Tertiary border border-gray-300 w-fit px-2 rounded-2xl mt-15">Testimonials</p>
+            <h2 className=" text-xl sm:text-4xl  leading-10 font-primary font-md text-font text-left mt-2 ">Client<span className="text-font-secondary"> Experience </span>That <br/> Speaks for Themselves.</h2>
+          
+            <div className="mt-22">
+            <Button BtnName="Read More Testimonials" />
+
+            </div>
+        </div>
+        <div className='w-3/5'>
+        <Testimonials description="“ We’re extremely pleased with the quality and professionalism this construction team delivered from start to finish. Their attention to detail, clear communication, and commitment to timelines made the entire process seamless. The project was completed safely, efficiently, and to the highest standards.”" Name="Mr. Anand Yadav" Position="CEO, XYZ Company" />
+
+        </div>
+
         </section>
 
         
