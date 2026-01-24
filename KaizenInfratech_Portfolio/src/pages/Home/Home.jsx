@@ -25,7 +25,7 @@ import ContactImg from "../../assets/images/Contact.jpg";
     return (
         <main >
 
-        <section className="w-4/5 mx-auto bg-surface h-screen flex flex-row  border border-gray-300 px-5">
+        <section className="w-4/5 mx-auto bg-surface h-screen flex flex-row px-5">
           <div className='w-3/5'>
             <h1 className="text-2xl sm:text-5xl py-10 font-primary font-bold text-font-secondary text-left mt-15">We Build Something <br/> New and Consistent.</h1>
             <p className="text-font font-light text-xl border-l-2 border-primary px-2 font-secondary">Your Ideas & Dreams are Transformed By Us <br/> Into Long Lasting, Engineered Buildings.</p>
@@ -38,11 +38,11 @@ import ContactImg from "../../assets/images/Contact.jpg";
           </div>
         </section>
 
-        <section className=" mx-auto bg-surface flex flex-row justify-center border border-gray-300 px-5 w-4/5">
+        <section className=" mx-auto bg-surface flex flex-row justify-center  px-5 w-4/5">
             <StatsBar/>
         </section>
 
-        <section className="mx-auto bg-surface h-screen flex flex-row justify-center border border-gray-300 px-5 w-4/5">
+        <section className="mx-auto bg-surface h-screen flex flex-row justify-center  px-5 w-4/5">
           
           <div className="">
             
@@ -85,18 +85,18 @@ import ContactImg from "../../assets/images/Contact.jpg";
           </div>
         </section>
 
+        
         <section className="w-full mx-auto bg-[#fcfcfc] ">
           
         <div className="w-4/5 mx-auto flex justify-center">
- <Card/> </div>
-        
-
+        <Card/> 
+        </div>
         </section>
 
-        <section className="w-4/5 mx-auto bg-surface h-100 flex flex-row justify-center border border-gray-300 px-5">
+        <section className="w-4/5 mx-auto bg-surface h-100 flex flex-row justify-center  px-5">
         <div className="w-2/5">
 
-            <p className="font-italics font-secondary text-font-Tertiary border border-gray-300 w-fit px-2 rounded-2xl mt-15">Testimonials</p>
+            <p className="font-italics font-secondary text-font-Tertiary  w-fit px-2 rounded-2xl mt-15">Testimonials</p>
             <h2 className=" text-xl sm:text-4xl  leading-10 font-primary font-md text-font text-left mt-2 ">Client<span className="text-font-secondary"> Experience </span>That <br/> Speaks for Themselves.</h2>
           
             <div className="mt-22">
@@ -113,76 +113,76 @@ import ContactImg from "../../assets/images/Contact.jpg";
 
         <hr className="w-4/5 border-gray-300 my-4" />
         
-        <section className="w-4/5 mx-auto pt-5 justify-center border border-gray-300 px-5 mb-10 overflow-x-hidden">
+        <section className="w-4/5 mx-auto pt-5 justify-center  px-5 mb-10 overflow-x-hidden">
         <ClientSection  />  
         </section>
 
          <section
-  className="relative min-h-screen px-5 flex items-center"
-  style={{
-    backgroundImage: `url(${ContactImg})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }}
->
-  {/* Black overlay */}
-  <div className="absolute inset-0 bg-black/60"></div>
+              className="relative min-h-screen px-5 flex items-center"
+              style={{
+              backgroundImage: `url(${ContactImg})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              }}
+              >
+                {/* Black overlay */}
+              <div className="absolute inset-0 bg-black/60"></div>
 
-  {/* Main content wrapper */}
-  <div className="relative z-10 w-4/5 mx-auto flex items-center justify-between gap-10">
+                {/* Main content wrapper */}
+              <div className="relative z-10 w-4/5 mx-auto flex items-center justify-between gap-10">
     
-    {/* Left text */}
-    <div className="w-3/5 mt-120">
-      <p className="text-white font-secondary font-extralight text-xs">
-        North India’s trusted leader in civil construction excellence.
-      </p>
+                 {/* Left text */}
+              <div className="w-3/5 mt-120">
+              <p className="text-white font-secondary font-extralight text-xs">
+                     North India’s trusted leader in civil construction excellence.
+              </p>
 
-      <h2 className="text-xl sm:text-4xl  font-primary font-extrabold text-white ">
-        <span className="text-font-secondary">Power </span>You Can Rely On.<br />
-        Service You Can <span className="text-font-secondary">Trust.</span>
-      </h2>
-    </div>
+              <h2 className="text-xl sm:text-4xl  font-primary font-extrabold text-white ">
+                    <span className="text-font-secondary">Power </span>You Can Rely On.<br />
+                    Service You Can <span className="text-font-secondary">Trust.</span>
+              </h2>
+              </div>
 
-    {/* Right card */}
-    <div className="w-full h-130 mt-10 bg-white/70 rounded-3xl p-6 backdrop-blur-md">
-  <h3 className="text-2xl font-primary font-bold text-black mb-6">
-    Send a Message
-  </h3>
+                {/* Right card */}
+              <div className="w-full h-130 mt-10 bg-white/70 rounded-3xl p-6 backdrop-blur-md">
+              <h3 className="text-2xl font-primary font-bold text-black mb-6">
+              Send a Message
+              </h3>
 
-  <form className="flex flex-col gap-4">
-    <input
-      type="text"
-      placeholder="Full Name"
-      className="w-full h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
-    />
+              <form className="flex flex-col gap-4">
+              <input
+              type="text"
+              placeholder="Full Name"
+              className="w-full h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
+              />
 
-    <div className="flex gap-4">
-      <input
-        type="email"
-        placeholder="Email Address"
-        className="w-1/2 h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
-      />
-      <input
-        type="tel"
-        placeholder="Phone Number"
-        className="w-1/2 h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
-      />
-    </div>
+              <div className="flex gap-4">
+              <input
+              type="email"
+              placeholder="Email Address"
+              className="w-1/2 h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
+              />
+              <input
+              type="tel"
+                placeholder="Phone Number"
+                className="w-1/2 h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
+              />
+            </div>  
+    
+            <textarea
+              placeholder="Your Message"
+              rows={12}
+              className="w-full bg-white rounded-lg px-3 py-2 text-sm resize-none outline-none focus:ring-2 focus:ring-primary"
+            />
 
-    <textarea
-      placeholder="Your Message"
-      rows={12}
-      className="w-full bg-white rounded-lg px-3 py-2 text-sm resize-none outline-none focus:ring-2 focus:ring-primary"
-    />
-
-    <button
-      type="submit"
-      className="self-start bg-Btn-Background text-black font-primary font-medium px-5 py-1 rounded-lg  hover:scale-105 hover:bg-primary transition-transform duration-300"
-    >
-      Submit
-    </button>
-  </form>
-</div>
+             <button
+               type="submit"
+               className="self-start bg-Btn-Background text-black font-primary font-medium px-5 py-1 rounded-lg  hover:scale-105 hover:bg-primary transition-transform duration-300"
+              >
+              Submit
+            </button>
+          </form>
+        </div>
 
     </div>
 </section>
