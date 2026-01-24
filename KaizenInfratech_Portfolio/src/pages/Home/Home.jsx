@@ -5,6 +5,17 @@ import StatsBar from '../../components/statsbar.jsx';
 import NoteBook from '../../components/Maps/mapWhite.jsx';
 import Card from "../../components/card1.jsx";
 import Testimonials from "../../components/testimonial.jsx";
+import Client from "../../components/Client.jsx";
+import ClientSection from "../../components/ClientsSection.jsx";
+
+
+import { FaArrowRight } from '@react-icons/all-files/fa/FaArrowRight.js';
+
+
+//images
+import bpcl from "../../assets/images/clientsImg/bpclicon.png";
+
+
 
 
  
@@ -124,7 +135,31 @@ import Testimonials from "../../components/testimonial.jsx";
 
         </section>
 
-        <hr className="border-t-2 w-4/5 border-gray-300 my-4" />
+        <hr className="w-4/5 width-2 border-gray-300 my-4" />
+          <section className="w-4/5 mx-auto pt-5 justify-center border border-gray-300 px-5 mb-10 overflow-x-hidden">
+       {/* <Client name="Adani Energy Ltd." image={bpcl} />   */}
+       <ClientSection  />  
+
+      
+        {/* <Client name="Adani Energy Ltd." image={bpcl} />  
+        <Client name="Haryana City Gas Distribution Limited" image={bpcl} />
+
+        <Client name="City Energy Ltd." image={bpcl} />
+        
+        <Client name="Eicher School" image={bpcl} />
+        <Client name="Tide Water Oil Co. India Ltd." image={bpcl} />
+
+        <Client name="Roulunds Braking Indian Pvt, Ltd." image={bpcl} />
+
+        <Client name="Dhramshila Hospital" image={bpcl} />
+        <Client name="Rockland Hospital" image={bpcl} />
+
+        <Client name="Krishak Bharti Cooperative Ltd." image={bpcl} />
+
+        <Client name="Universal Energies Ltd." image={bpcl} /> */}
+
+
+        </section>
 
         
         </main>
