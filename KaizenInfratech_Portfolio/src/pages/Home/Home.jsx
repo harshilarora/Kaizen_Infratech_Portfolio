@@ -14,6 +14,7 @@ import { FaArrowRight } from '@react-icons/all-files/fa/FaArrowRight.js';
 
 //images
 import bpcl from "../../assets/images/clientsImg/bpclicon.png";
+import ContactImg from "../../assets/images/Contact.jpg";
 
 
 
@@ -135,31 +136,82 @@ import bpcl from "../../assets/images/clientsImg/bpclicon.png";
 
         </section>
 
-        <hr className="w-4/5 width-2 border-gray-300 my-4" />
-          <section className="w-4/5 mx-auto pt-5 justify-center border border-gray-300 px-5 mb-10 overflow-x-hidden">
-       {/* <Client name="Adani Energy Ltd." image={bpcl} />   */}
-       <ClientSection  />  
-
-      
-        {/* <Client name="Adani Energy Ltd." image={bpcl} />  
-        <Client name="Haryana City Gas Distribution Limited" image={bpcl} />
-
-        <Client name="City Energy Ltd." image={bpcl} />
+        <hr className="w-4/5 border-gray-300 my-4" />
         
-        <Client name="Eicher School" image={bpcl} />
-        <Client name="Tide Water Oil Co. India Ltd." image={bpcl} />
-
-        <Client name="Roulunds Braking Indian Pvt, Ltd." image={bpcl} />
-
-        <Client name="Dhramshila Hospital" image={bpcl} />
-        <Client name="Rockland Hospital" image={bpcl} />
-
-        <Client name="Krishak Bharti Cooperative Ltd." image={bpcl} />
-
-        <Client name="Universal Energies Ltd." image={bpcl} /> */}
-
-
+        <section className="w-4/5 mx-auto pt-5 justify-center border border-gray-300 px-5 mb-10 overflow-x-hidden">
+        <ClientSection  />  
         </section>
+
+         <section
+  className="relative min-h-screen px-5 flex items-center"
+  style={{
+    backgroundImage: `url(${ContactImg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
+  {/* Black overlay */}
+  <div className="absolute inset-0 bg-black/60"></div>
+
+  {/* Main content wrapper */}
+  <div className="relative z-10 w-4/5 mx-auto flex items-center justify-between gap-10">
+    
+    {/* Left text */}
+    <div className="w-3/5 mt-120">
+      <p className="text-white font-secondary font-extralight text-xs">
+        North India’s trusted leader in civil construction excellence.
+      </p>
+
+      <h2 className="text-xl sm:text-4xl  font-primary font-extrabold text-white ">
+        <span className="text-font-secondary">Power </span>You Can Rely On.<br />
+        Service You Can <span className="text-font-secondary">Trust.</span>
+      </h2>
+    </div>
+
+    {/* Right card */}
+    <div className="w-full h-130 mt-10 bg-white/70 rounded-3xl p-6 backdrop-blur-md">
+  <h3 className="text-2xl font-primary font-bold text-black mb-6">
+    Send a Message
+  </h3>
+
+  <form className="flex flex-col gap-4">
+    <input
+      type="text"
+      placeholder="Full Name"
+      className="w-full h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
+    />
+
+    <div className="flex gap-4">
+      <input
+        type="email"
+        placeholder="Email Address"
+        className="w-1/2 h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
+      />
+      <input
+        type="tel"
+        placeholder="Phone Number"
+        className="w-1/2 h-10 bg-white rounded-lg px-3 text-sm outline-none focus:ring-2 focus:ring-primary"
+      />
+    </div>
+
+    <textarea
+      placeholder="Your Message"
+      rows={12}
+      className="w-full bg-white rounded-lg px-3 py-2 text-sm resize-none outline-none focus:ring-2 focus:ring-primary"
+    />
+
+    <button
+      type="submit"
+      className="self-start bg-Btn-Background text-black font-primary font-medium px-5 py-1 rounded-lg  hover:scale-105 hover:bg-primary transition-transform duration-300"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+
+    </div>
+</section>
+
 
         
         </main>
