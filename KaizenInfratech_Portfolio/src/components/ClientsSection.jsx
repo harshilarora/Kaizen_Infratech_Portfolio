@@ -20,9 +20,9 @@ import { FaArrowRight } from "@react-icons/all-files/fa/FaArrowRight";
 
 function Client({ name, image }) {
   return (
-    <div className="min-w-[250px] flex-shrink-0 bg-gray-100 rounded-md p-4 hover:shadow-xl transition-shadow">
+    <div className="min-w-62.5 shrink-0 bg-gray-100 rounded-md p-4 hover:shadow-xl transition-shadow">
       <div className="flex flex-col items-center gap-4">
-        <img src={image} alt={name} className="max-w-[150px] h-18 object-contain mx-auto" />
+        <img src={image} alt={name} className="max-w-37.5 h-18 object-contain mx-auto" />
         <h3 className="pt-3 text-xs font-primary text-gray-600 text-center">{name}</h3>
       </div>
     </div>

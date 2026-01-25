@@ -9,7 +9,7 @@ function testimonial({Title, description, Name, Position}) {
 <div
       className="
         relative
-        w-[650px] h-[280px]
+        w-162.5 h-70
         bg-[#f0f0f0]
         px-8 pt-8 pb-14
         rounded-lg

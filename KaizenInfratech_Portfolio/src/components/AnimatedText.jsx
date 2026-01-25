@@ -16,7 +16,7 @@ const AnimatedText = ({ text }) => {
 
   return (
     <div className=" px-4">
-      <p className="font-secondary font-medium text-center text-xl sm:text-3xl leading-relaxed max-w-4xl whitespace-pre-wrap break-words">
+      <p className="font-secondary font-medium text-center text-xl sm:text-3xl leading-relaxed max-w-4xl whitespace-pre-wrap ">
         {letters.map((char, index) => (
           <span
             key={index}

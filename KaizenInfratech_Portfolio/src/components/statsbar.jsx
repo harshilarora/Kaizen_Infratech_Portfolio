@@ -45,7 +45,7 @@ function Stat({ value, label, showDivider }) {
       </p>
 
       {showDivider && (
-        <span className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 h-16 w-[2px] bg-yellow-400" />
+        <span className="hidden md:block absolute right-0 top-1/2 -translate-y-1/2 h-16 w-0.5 bg-yellow-400" />
       )}
     </div>
   );

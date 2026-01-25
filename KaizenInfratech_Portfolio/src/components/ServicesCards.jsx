@@ -15,7 +15,7 @@ function Card1({ Title, description, url, src }) {
     <div
       className="
         relative
-        w-[380px] h-[240px]
+        w-95 h-60
         bg-[#f0f0f0]
         px-8 pt-8 pb-14
         rounded-lg"

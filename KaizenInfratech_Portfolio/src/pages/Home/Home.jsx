@@ -5,7 +5,6 @@ import StatsBar from '../../components/statsbar.jsx';
 import NoteBook from '../../components/Maps/mapWhite.jsx';
 import Card from "../../components/ServicesCards.jsx";
 import Testimonials from "../../components/testimonial.jsx";
-import Client from "../../components/Client.jsx";
 import ClientSection from "../../components/ClientsSection.jsx";
 
 
@@ -78,7 +77,7 @@ import ContactImg from "../../assets/images/Contact.jpg";
       
           <div className="mt-24 relative w-fit">
             <NoteBook />
-            <div className="absolute top-10 right-10 w-[350px] h-[250px]
+            <div className="absolute top-10 right-10 w-87.5 h-62.5
                   border-t-4 border-r-4 border-b-4 border-l-0
                   border-yellow-400 pointer-events-none">
             </div>          

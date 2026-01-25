@@ -1,6 +1,8 @@
 import React from 'react'
 
 import AnimatedText from '../../components/AnimatedText' 
+import Leadership from '../../components/Leadership'
+import ButtonRound from '../../components/ButtonRound'
 
 // images
 import AboutImg from "../../assets/images/AboutImg.jpg";
@@ -58,6 +60,8 @@ function About() {
                     <h1 className=" text-4xl sm:text-5xl font-primary font-bold text-left mt-10 ml-10 mb-20">
                       Leadership That<br />Drives Change
                     </h1>
+                    <Leadership />
+                    <ButtonRound/>
 
                   </div>
                 
