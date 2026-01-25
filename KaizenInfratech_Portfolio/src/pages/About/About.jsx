@@ -131,13 +131,13 @@ function About() {
                 
 
                 <section className="w-4/5 mx-auto bg-surface h-screen flex flex-row px-5">
-                <div className='w-3/5'>
+                <div className='w-2/5'>
                   <h1 className="text-2xl sm:text-5xl font-primary font-bold text-black text-left mt-100 ">Join The <span className='text-font-secondary'> <br/>Team</span> Today.</h1>
                   <Button BtnName="Apply Here"/>
 
                   </div>
-                  <div>
-                    <hatImg className="w-full"/>
+                  <div className='w-3/5'>
+                    <hatImg className="z-100 w-full"/>
                   </div>
                 </section>
 
