@@ -5,6 +5,7 @@ import Layout from './Layout.jsx'
 import Home from './pages/Home/Home.jsx'
 import About from './pages/About/About.jsx'
 import { ThemeProvider } from "next-themes";
+import Services from './pages/Services/Services.jsx'
 
 
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
         path: 'about',
         element: <About />,
       },
+      {
+        path: 'Services',
+        element: <Services />, 
+      }
       // {
       //   path: 'contact',
       //   element: <Contact />,
