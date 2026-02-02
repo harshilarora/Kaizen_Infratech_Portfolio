@@ -9,7 +9,9 @@ import Button from '../../components/Button.jsx';
 import AboutImg from "../../assets/images/AboutImg.jpg";
 import GasImg from "../../assets/images/GasImg.png";
 import VisionImg from "../../assets/images/VisionImg.jpg"
-import hatImg from "../../assets/images/hat.png"
+import MeetingImg from "../../assets/images/Meeting.jpg"
+import Hat from "../../assets/images/hat.png"
+
 
 
 
@@ -78,7 +80,7 @@ function About() {
                 <section className="grid grid-cols-2 gap-4 mx-auto w-4/5 mt-20">
                     <div className="">
                       <div>
-                        <h2 className="font-primary text-4xl pb-4">Our Vision</h2>
+                        <h2 className="font-primary text-4xl pb-4">Our Vision<span><hr className="bg-primary h-0.5 border-none mt-2 w-3/5"></hr></span></h2>
                         <p className="font-secondary font-light text-sm leading-relaxed">By merging together the expertise of highly skilled professional process and advanced technology, we strive to become one of the noted
                                       names in the dynamic construction industry. We aim to advance and flourish by forming long term relationships with our numerous trusted
                                       clients which could only be accomplished by keeping their needs ahead of our own. It is our ceaseless efforts to acquire the position of one of
@@ -94,8 +96,8 @@ function About() {
                     </div>
 
                     <div className="ml-6">
-                      <img src={VisionImg} className='w-full'></img>
-                      <h2 className="font-primary text-4xl pb-4 mt-10">Our Mission</h2>
+                      <img src={MeetingImg} className='w-full'></img>
+                      <h2 className="font-primary text-4xl pb-4 mt-10">Our Mission <span><hr className="bg-primary h-0.5 border-none mt-2 w-3/5"></hr></span></h2>
                       <p className="font-secondary text-sm font-light leading-relaxed">Our exhilarating combination of unique thinking, inventive designs, and commitment has provided us with a constant boost to continuously
                                     develop and aim for the highest virtues. Our ingrained professional operations and dedicated efforts ensure that we complete our entire
                                     range of projects swiftly on time. We aim at maintaining transparency in our complete course of operations while completely adhering with
@@ -133,11 +135,11 @@ function About() {
                 <section className="w-4/5 mx-auto bg-surface h-screen flex flex-row px-5">
                 <div className='w-2/5'>
                   <h1 className="text-2xl sm:text-5xl font-primary font-bold text-black text-left mt-100 ">Join The <span className='text-font-secondary'> <br/>Team</span> Today.</h1>
-                  <Button BtnName="Apply Here"/>
+                  <Button BtnName="View Careers"/>
 
                   </div>
-                  <div className='w-3/5'>
-                    <hatImg className="z-100 w-full"/>
+                  <div className='w-3/5 justify-center items-center flex'>
+                    <img src={Hat} className="w-3/5 transform scale-x-[-1] "/>
                   </div>
                 </section>
 
