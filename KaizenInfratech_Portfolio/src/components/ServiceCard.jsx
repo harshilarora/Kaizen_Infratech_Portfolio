@@ -46,7 +46,7 @@ function ServiceCard({ number, title, description, isInitiallyOpen = false }) {
             ))}
           </ul>
         ) : (
-          <p className="text-gray-700 leading-relaxed w-4/5">
+          <p className="text-gray-700 leading-relaxed w-3/5">
             {description}
           </p>
         )}
