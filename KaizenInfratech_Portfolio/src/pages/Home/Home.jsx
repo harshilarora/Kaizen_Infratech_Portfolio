@@ -95,7 +95,7 @@ import ContactImg from "../../assets/images/Contact.jpg";
         <section className="w-4/5 mx-auto bg-surface h-100 flex flex-row justify-center  px-5">
         <div className="w-2/5">
 
-            <p className="font-italics font-secondary text-font-Tertiary  w-fit px-2 rounded-2xl mt-15">Testimonials</p>
+            <p className="font-italics font-secondary text-font-Tertiary border w-fit px-2 rounded-2xl mt-15">Testimonials</p>
             <h2 className=" text-xl sm:text-4xl  leading-10 font-primary font-md text-font text-left mt-2 ">Client<span className="text-font-secondary"> Experience </span>That <br/> Speaks for Themselves.</h2>
           
             <div className="mt-22">
