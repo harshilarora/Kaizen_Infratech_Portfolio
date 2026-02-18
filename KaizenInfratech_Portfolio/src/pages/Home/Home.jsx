@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import Button from '../../components/Button.jsx';
 import StatsBar from '../../components/statsbar.jsx';
-import NoteBook from '../../components/Maps/mapWhite.jsx';
+// import NoteBook from '../../components/Maps/mapWhite.jsx';
 import Card from "../../components/ServicesCards.jsx";
 import Testimonials from "../../components/testimonial.jsx";
 import ClientSection from "../../components/ClientsSection.jsx";
@@ -79,7 +79,7 @@ import ContactImg from "../../assets/images/Contact.jpg";
           </div>
       
           <div className="mt-24 relative w-fit">
-            <NoteBook className="z-30" />
+            {/* <NoteBook className="z-30" /> */}
        
                     
             <div className="absolute top-10 right-10 w-87.5 h-62.5
