@@ -26,6 +26,7 @@
   "dependencies": {
     "@observablehq/runtime": "^5.9.9",
     "@react-icons/all-files": "^4.1.0",
+    "924eb0675b649338": "https://api.observablehq.com/d/924eb0675b649338.tgz?v=3",
     "a81f306d392fbc57": "https://api.observablehq.com/d/a81f306d392fbc57.tgz?v=3",
     "clsx": "^2.1.1",
     "d3": "^7.9.0",
