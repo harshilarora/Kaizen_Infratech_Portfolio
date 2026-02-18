@@ -7,6 +7,8 @@ import Card from "../../components/ServicesCards.jsx";
 import Testimonials from "../../components/testimonial.jsx";
 import ClientSection from "../../components/ClientsSection.jsx";
 import HomePageImg from "../../assets/images/homepage-image.png";
+import missionIcon from "../../assets/images/missionicon1.png"; 
+import worldIcon from "../../assets/images/worldicon1.png";
 
 
 import { FaArrowRight } from '@react-icons/all-files/fa/FaArrowRight.js';
@@ -53,7 +55,7 @@ import ContactImg from "../../assets/images/Contact.jpg";
 
               <div className='flex flex-col md:flex-row gap-8 mt-10 hover:scale-105 transition-transform duration-300'>
                 <div className=' bg-Btn-Background/20 p-2 h-12'>
-                <img src="../src/assets/images/missionicon1.png" alt="mission-icon" className="w-full"/>
+                <img src={missionIcon} alt="mission-icon" className="w-full"/>
                 </div>
                 <div>
                 <h4 className="font-primary font-bold ">Our Mission</h4>
@@ -63,7 +65,7 @@ import ContactImg from "../../assets/images/Contact.jpg";
 
               <div className='flex flex-col md:flex-row gap-8 mt-10 hover:scale-105 transition-transform duration-300'>
                 <div className=' bg-Btn-Background/20 p-2 h-12'>
-                <img src="../src/assets/images/worldicon1.png" alt="world-icon" className="w-full"/>
+                <img src={worldIcon} alt="world-icon" className="w-full"/>
                 </div>
                 <div>
                 <h4 className="font-primary font-bold ">Our Vision</h4>
