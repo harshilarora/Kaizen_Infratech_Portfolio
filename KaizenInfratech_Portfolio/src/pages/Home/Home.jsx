@@ -79,7 +79,9 @@ import ContactImg from "../../assets/images/Contact.jpg";
           </div>
       
           <div className="mt-24 relative w-fit">
-            <NoteBook />
+            <NoteBook className="z-30" />
+       
+                    
             <div className="absolute top-10 right-10 w-87.5 h-62.5
                   border-t-4 border-r-4 border-b-4 border-l-0
                   border-yellow-400 pointer-events-none">
