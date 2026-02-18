@@ -6,6 +6,7 @@ import NoteBook from '../../components/Maps/mapWhite.jsx';
 import Card from "../../components/ServicesCards.jsx";
 import Testimonials from "../../components/testimonial.jsx";
 import ClientSection from "../../components/ClientsSection.jsx";
+import HomePageImg from "../../assets/images/homepage-image.png";
 
 
 import { FaArrowRight } from '@react-icons/all-files/fa/FaArrowRight.js';
@@ -33,7 +34,7 @@ import ContactImg from "../../assets/images/Contact.jpg";
 
           </div>
           <div >
-            <img src="../src/assets/images/homepage-image.png" alt="homepage-image" className="w-auto max-h-4/5 mt-24 items-center"/>
+            <img src={HomePageImg} alt="homepage-image" className="w-auto max-h-4/5 mt-24 items-center"/>
           </div>
         </section>
 
